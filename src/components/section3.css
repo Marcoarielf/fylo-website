@@ -1,0 +1,60 @@
+.containerS3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    max-width: 85%;
+    margin: 100px auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.containerS3 p{
+    text-align: left;
+    color: #fff;
+}
+.containerS3 a{
+    color:  hsl(176, 68%, 64%);
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+    text-align: left;
+    width: auto;
+}
+
+.seeHow{
+    max-width: 42%;
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+    display: flex;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+.seeHow img{
+    width: 20px;
+}
+.seeHow a{
+    display: inline-block;
+    text-decoration: none;
+    
+}
+.content h2{
+    text-align: left; 
+}
+
+@media screen and (min-width: 768px){
+    .containerS3{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .contentImg{
+        max-width: 40%;
+        display: inline-block;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        max-width: 60%;
+        display: inline-block;
+    }
+    
+}

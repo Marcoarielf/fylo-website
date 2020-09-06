@@ -1,0 +1,37 @@
+.containerGS{
+    color: white;
+    width: 85%;
+    left: 3%;
+    padding: 20px;
+    background: hsl(217, 28%, 15%);
+    z-index: 999 !important;
+    position: absolute;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.432);
+}
+input{
+    width: 80%;
+    border-radius: 25px;
+    padding: 20px;
+    
+}
+button{
+    width: 90%;
+}
+
+@media screen and (min-width: 768px){
+    .containerGS{
+        max-width: 65%;
+        padding: 50px;
+        left: 15%;
+        margin-top: 50px;
+    }
+    input{
+        max-width: 45%;
+        display: inline-block;
+        
+    }
+    button{
+        max-width: 35%;
+        margin-left: 40px;
+    }
+  }

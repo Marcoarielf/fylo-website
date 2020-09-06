@@ -1,0 +1,21 @@
+.Nav{
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: hsl(217, 28%, 15%);
+}
+.Nav img{
+    max-width: 30%;
+    position: absolute;
+    top: 35px;
+    left: 20px;
+}
+.Nav ul{
+    list-style-type: none;
+    
+}
+.Nav ul li a{
+    padding-left: 20px;
+    color: #fff;
+    text-decoration: none;
+}
